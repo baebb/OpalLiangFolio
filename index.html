@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+	<head>
+
+		<!-- ==============================================
+		Title and Meta Tags
+		=============================================== -->
+		<meta charset="utf-8">
+		<title>Opal Liang</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<!-- ==============================================
+		Favicons
+		=============================================== -->
+		<link rel="shortcut icon" href="assets/images/favicon.ico">
+		<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png">
+		
+		<!-- ==============================================
+		CSS
+		=============================================== -->    
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/flexslider.css">
+		<link rel="stylesheet" href="assets/css/styles.css">
+		
+		<!-- ==============================================
+		Fonts
+		=============================================== -->
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,200,500,600,700' rel='stylesheet' type='text/css'>
+		<!-- ==============================================
+		JS
+		=============================================== -->
+			
+		<!--[if lt IE 9]>
+			<script src="assets/js/libs/respond.min.js"></script>
+		<![endif]-->
+		
+		<script type="text/javascript" src="assets/js/libs/modernizr.min.js"></script>
+		
+	</head>
+  
+	<body data-spy="scroll" data-target="#main-nav" data-offset="200">
+	
+		<!--=== PAGE PRELOADER ===-->
+		<div id="page-loader"><span class="page-loader-gif"></span></div>
+		
+	
+		<!-- ==============================================
+		MAIN NAV
+		=============================================== -->
+		<div id="main-nav" class="navbar navbar-fixed-top">
+			<div class="container">
+			
+				<div class="navbar-header">
+				
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-nav">
+						<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+					</button>
+					
+					<!-- ======= LOGO ========-->
+					<a class="navbar-brand scrollto" href="#home"><img src="assets/images/logo.png" alt=""/></a>
+				
+				</div>
+				
+				<div id="site-nav" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="sr-only">
+							<a href="#home" class="scrollto">Home</a>
+						</li>
+						<li>
+							<a href="#about" class="scrollto">About Me</a>
+						</li>
+						<li>
+							<a href="#portfolio" class="scrollto">My Work</a>
+						</li>
+						<li>
+							<a href="#contact" class="scrollto">Contact Me</a>
+						</li>
+					</ul>
+				</div><!--End navbar-collapse -->
+				
+			</div><!--End container -->
+			
+		</div><!--End main-nav -->
+		
+		<!-- ==============================================
+		HEADER
+		=============================================== -->
+		<header id="home">
+		
+			<div class="container text-center">
+				
+				<h1>Opal Liang</h1>
+				
+				<p>Illustrator & Animator</p>
+			
+			</div>
+			
+		</header><!--End header -->
+
+		<!-- ==============================================
+		ABOUT
+		=============================================== -->
+		<section id="about" class="add-padding bg-color2">
+		
+			<div class="container">
+				
+				<div class="row">
+				
+					<div class="col-sm-6 scrollimation fade-right d1">
+					
+						<img class="img-responsive polaroid" src="assets/images/about.jpg" alt="" />
+					
+					</div>
+					
+					<div class="col-sm-6 scrollimation fade-left d3">
+					
+						<h1 class="big-text">About Me</h1>
+						
+						<p class="lead">I'm Sydney based designer with a love of animation and illustration.</p>
+					
+						<p>My goal as a creative is to be constantly learning, improving and producing beautiful work for both my clients and my conscience. When not designing my heart out for a project- you'll find me kicking up a sweat in Taekwondo, petting stray cats, or singing pop songs out loud to an invisible crowd.</p>
+					
+					</div>
+				
+				</div>
+				
+			</div>
+		
+		</section>
+			
+		<!-- ==============================================
+		PORTFOLIO
+		=============================================== -->
+		<section id="portfolio" class="add-padding">
+		
+			<div class="container">
+				
+				<h1 class="big-text text-center scrollimation fade-in">My Work</h1>
+				
+				<!--==== Portfolio Filters ====-->
+				<div id="filter-works">
+					<ul>
+						<li class="active scrollimation fade-right d1">
+							<a href="#" data-filter="*">All</a>
+						</li>
+						<li class="scrollimation fade-right">
+							<a href="#" data-filter=".identity">Identity</a>
+						</li>
+						<li class="scrollimation fade-left">
+							<a href="#" data-filter=".animation">Animation</a>
+						</li>
+						<li class="scrollimation fade-left d1">
+							<a href="#" data-filter=".illustration">Illustration</a>
+						</li>
+					</ul>
+				</div><!--End portfolio filters -->
+				
+				<!--==== Project Preview ====-->
+				<div id="project-preview">
+				
+					<span class="close-preview">&times;</span>
+				
+					<div id="project-slider" class="flexslider"></div>
+					
+					<h1 id="project-title"></h1>
+				
+					<div id="project-content"></div>
+				
+				</div><!--Project Preview -->
+				
+			</div>
+		
+			<div class="container masonry-wrapper">
+			
+				<div id="projects-container">
+				
+					<!-- ==============================================
+					SINGLE PROJECT ITEM
+					=============================================== -->	
+					<article class="project-item animation">
+						
+						<img class="img-responsive project-image" src="assets/images/thumb.png"  alt=""><!--Project thumb -->
+						
+						<div class="hover-mask">
+							<h2 class="project-title">TBD - Don't Get Sucked In</h2><!--Project Title -->
+							<p>Animation</p><!--Project Subtitle -->
+						</div>
+						
+						<!--==== Project Preview HTML ====-->
+						
+						<div class="sr-only project-description" data-images="assets/images/slide.png,assets/images/slide.png" >
+						
+							<p>It's often the simple decisions in life that catches us off guard with just how much time we spend mulling over our options. As we devote more time and energy into a decision, we're fooled into over thinking the significance of the situation and we get pulled further into indecision.</p>
+							
+							<p>To Be Decided is a three part series exploring the mental struggle of indecisive individuals when faced with seemingly
+mundane decisions. </p>
+							<p class="text-center"><a class="btn btn-color1" href="https://www.behance.net/gallery/21114199/TBD-Dont-Get-Sucked-In"><i class="fa fa-arrow-right"></i>View on Behance</a></p>
+						
+						</div>
+						
+					</article>
+					<!-- ==============================================
+					END PROJECT ITEM
+					=============================================== -->						
+					
+					<article class="project-item animation">
+						
+						<img class="img-responsive project-image" src="assets/images/thumb.png"  alt=""><!--Project thumb -->
+						
+						<div class="hover-mask">
+							<h2 class="project-title">TBD - Don't Get Freaked Out</h2><!--Project Title -->
+							<p>Animation</p><!--Project Subtitle -->
+						</div>
+						
+						<!--==== Project Preview HTML ====-->
+						
+						<div class="sr-only project-description" data-images="assets/images/slide.png,assets/images/slide.png" >
+						
+							<p>It's often the simple decisions in life that catches us off guard with just how much time we spend mulling over our options. As we devote more time and energy into a decision, we're fooled into over thinking the significance of the situation and we get pulled further into indecision.</p>
+							
+							<p>To Be Decided is a three part series exploring the mental struggle of indecisive individuals when faced with seemingly
+mundane decisions. </p>
+							<p class="text-right"><a class="btn btn-color1" href="https://www.behance.net/gallery/21116169/TBD-Dont-Get-Freaked-Out"><i class="fa fa-behance"></i>View on Behance</a></p>
+							
+						</div>
+						
+					</article><!--End Project Item -->
+
+					<article class="project-item animation">
+						
+						<img class="img-responsive project-image" src="assets/images/thumb.png"  alt=""><!--Project thumb -->
+						
+						<div class="hover-mask">
+							<h2 class="project-title">TBD - Don't Get Tied Up</h2><!--Project Title -->
+							<p>Animation</p><!--Project Subtitle -->
+						</div>
+						
+						<!--==== Project Preview HTML ====-->
+						
+						<div class="sr-only project-description" data-images="assets/images/slide.png,assets/images/slide.png" >
+						
+							<p>It's often the simple decisions in life that catches us off guard with just how much time we spend mulling over our options. As we devote more time and energy into a decision, we're fooled into over thinking the significance of the situation and we get pulled further into indecision.</p>
+							
+							<p>To Be Decided is a three part series exploring the mental struggle of indecisive individuals when faced with seemingly
+mundane decisions. </p>
+							<p class="text-right"><a class="btn btn-color1" href="https://www.behance.net/gallery/21163751/TBD-Dont-Get-Tied-Up"><i class="fa fa-behance"></i>View on Behance</a></p>
+							
+						</div>
+						
+					</article><!--End Project Item -->
+
+					<article class="project-item illustration">
+						
+						<img class="img-responsive project-image" src="assets/images/thumb.png"  alt=""><!--Project thumb -->
+						
+						<div class="hover-mask">
+							<h2 class="project-title">Cities in Crisis</h2><!--Project Title -->
+							<p>Photo Manipulation</p><!--Project Subtitle -->
+						</div>
+						
+						<!--==== Project Preview HTML ====-->
+						
+						<div class="sr-only project-description" data-images="assets/images/slide.png,assets/images/slide.png" >
+						
+							<p>Cities in Crisis is a series of photo-manipulated images that aims to draw attention to the looming yet often overlooked
+issue of urban pollution. Representing surface water pollution is the city of Dhaka, Bangladesh- the skyline of which I
+have turned into a cascading spring of stained liquid. Next is the city of Shanghai, a bustling city concealed under a
+ghostly veneer of smog and haze. Last but not least- light pollution is embodied by the cityscape of New York’s
+Manhattan. While the city radiates laser-like brilliance, the surrounding electrical sparks reflects the intense power
+consumption behind the city’s glowing façade.</p>
+							
+							<p>By materializing the cities of Dhaka, Shanghai and New York in their respective element of pollution; I have re-envisioned
+the cities to embody the very essence of harm they emit. </p>
+							<p class="text-right"><a class="btn btn-color1" href="https://www.behance.net/gallery/12148553/Cities-In-Crisis"><i class="fa fa-behance"></i>View on Behance</a></p>
+						</div>
+						
+					</article><!--End Project Item -->
+
+					<article class="project-item animation">
+						
+						<img class="img-responsive project-image" src="assets/images/thumb.png"  alt=""><!--Project thumb -->
+						
+						<div class="hover-mask">
+							<h2 class="project-title">APA Book Award Intro</h2><!--Project Title -->
+							<p>Animation</p><!--Project Subtitle -->
+						</div>
+						
+						<!--==== Project Preview HTML ====-->
+						
+						<div class="sr-only project-description" data-images="assets/images/slide.png,assets/images/slide.png" >
+						
+							<p>The APA hosts an annual Book Award for books published by an Australian publisher or designed by Australian
+designers. Following in the footsteps of 2012 PANZ Book Design Awards in New Zealand, the APA wanted an animated
+introductory sequence that celebrates the books whilst engaging and delighting the audience.</p>
+							
+							<p>My animated intro expounds the theme of discovery whereby the discovery of adventures in reading is often only made
+possible beautiful, clever and meaningful book cover designs.</p>
+                            
+                            <p class="text-right"><a class="btn btn-color1" href="https://www.behance.net/gallery/9452931/APA-Book-Awards-Intro"><i class="fa fa-behance"></i>View on Behance</a></p>
+						</div>
+						
+					</article><!--End Project Item -->
+
+					<article class="project-item animation">
+						
+						<img class="img-responsive project-image" src="assets/images/thumb.png"  alt=""><!--Project thumb -->
+						
+						<div class="hover-mask">
+							<h2 class="project-title">Lime Juice Concept Art</h2><!--Project Title -->
+							<p>Animation</p><!--Project Subtitle -->
+						</div>
+						
+						<!--==== Project Preview HTML ====-->
+						
+						<div class="sr-only project-description" data-images="assets/images/slide.png,assets/images/slide.png" >
+						
+							<p>Conceptualised as part of a crowd sourced animation project for the song “Lime Juice” by Sydney artist Unkle Ho.
+Inspired by the eclectic mix of ethnic and in particular Middle Eastern sound clips used in the song, the initial concept
+follows a skeleton’s quest to regain mortality through gypsy magic. </p>
+							<p class="text-right"><a class="btn btn-color1" href="https://www.behance.net/gallery/5820767/Lime-Juice-Animation-Pitch"><i class="fa fa-behance"></i>View on Behance</a></p>
+						</div>
+						
+					</article><!--End Project Item -->
+					
+					<article class="project-item identity">
+						
+						<img class="img-responsive project-image" src="assets/images/thumb.png"  alt=""><!--Project thumb -->
+						
+						<div class="hover-mask">
+							<h2 class="project-title">Performative Perfumery</h2><!--Project Title -->
+							<p>Identity</p><!--Project Subtitle -->
+						</div>
+						
+						<!--==== Project Preview HTML ====-->
+						
+						<div class="sr-only project-description" data-images="assets/images/slide.png,assets/images/slide.png" >
+						
+							<p>Performative Perfumery is a DIY perfume blending kit that allows people to mix scents according to personality traits and
+qualities they wish to project on to others. </p>
+							
+							<p>Exploring the notion of ‘otherness’ within the self, this speculative design project highlights the critical importance of
+conscious and mindful performance in the process of self-invention.</p>
+							<p class="text-right"><a class="btn btn-color1" href="https://www.behance.net/gallery/17168449/Performative-Perfumery"><i class="fa fa-behance"></i>View on Behance</a></p>
+						</div>
+						
+					</article><!--End Project Item -->
+
+					<article class="project-item illustration">
+						
+						<img class="img-responsive project-image" src="assets/images/thumb.png"  alt=""><!--Project thumb -->
+						
+						<div class="hover-mask">
+							<h2 class="project-title">Foster the Good Times</h2><!--Project Title -->
+							<p>illustration</p><!--Project Subtitle -->
+						</div>
+						
+						<!--==== Project Preview HTML ====-->
+						
+						<div class="sr-only project-description" data-images="assets/images/slide.png,assets/images/slide.png" >
+						
+							<p>The UTS Drawing Circle is a newly established university club that aims to foster creative talent on campus. In
+celebration of its successful first year, the club has published its first official Art Book- this is my submission.</p>
+							
+							<p>Given the theme of "Growth", this illustration is about nurturing meaningful relationships and appreciating the simple
+things. </p>
+							<p class="text-right"><a class="btn btn-color1" href="https://www.behance.net/gallery/13845849/Foster-The-Good-Times"><i class="fa fa-behance"></i>View on Behance</a></p>
+						</div>
+						
+					</article><!--End Project Item -->
+				</div><!-- End projects --> 
+				
+			</div><!-- End container --> 
+			
+		
+		</section>
+			
+		<!-- ==============================================
+		CONTACT
+		=============================================== -->
+		<section id="contact" class="add-padding">
+		
+			<div class="container">
+				
+				<div class="row">
+                    
+                    <div class="col-sm-8 offset-2 col-centered scrollimation fade-down">
+                    
+                    <h1 class="big-text text-center scrollimation fade-in">Lets chat</h1>
+                    <br>
+                    <p class="text-center">I'm constantly on the lookout for new projects, collaborations and learning opportunities so please do drop me a few words and say hello 'cause I love to chat!</p>
+                        <br>
+                        <br>
+                    <a href="mailto:opalliang@gmail.com"><button class="btn btn-color2 center-block"><i class="fa fa-paper-plane"></i>Send Message</button></a>
+                        
+                    </div>
+					
+				</div>
+				
+			</div>
+		
+		</section>
+		
+		<!-- ==============================================
+		FOOTER
+		=============================================== -->	
+		
+		<footer id="main-footer" class="add-padding bg-color3 border-top-color2">
+		
+			<div class="container">
+			
+				<ul class="social-links text-center">
+					<li><a href="https://www.behance.net/OpalLiang"><i class="fa fa-behance fa-fw"></i></a></li>
+					<li><a href="https://vimeo.com/opalliang"><i class="fa fa-vimeo-square fa-fw"></i></a></li>
+					<li><a href="http://www.linkedin.com/pub/opal-liang/45/39/b8"><i class="fa fa-linkedin fa-fw"></i></a></li>
+				</ul>
+			
+				<p class="text-center">&copy; 2014 Opal Liang - All rights reserved</p>
+			
+			</div>
+			
+		</footer>
+		
+		<!-- ==============================================
+		SCRIPTS
+		=============================================== -->	
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="assets/js/libs/jquery-1.8.2.min.js">\x3C/script>')</script>
+		
+		<script src="assets/js/libs/bootstrap.min.js"></script>
+		<script src="assets/js/jquery.scrollto.js"></script>
+		<script src="assets/js/waypoints.min.js"></script>
+		<script src="assets/js/jquery.masonry.min.js"></script>
+		<script src="assets/js/jquery.flexslider.min.js"></script>
+		<script src="assets/js/jquery.backstretch.min.js"></script>
+		<script src="assets/js/twitterFetcher_v10_min.js"></script>
+		<script src="assets/js/contact.js"></script>
+		<script src="assets/js/scripts.js"></script>
+		
+	</body>
+	
+</html>
