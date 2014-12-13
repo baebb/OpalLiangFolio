@@ -1,4 +1,14 @@
-$(document).ready(function() {	
+$(document).ready(function() {
+	
+	/*============================================
+	Page Preloader
+	==============================================*/
+	
+	$(window).load(function(){
+		$('#page-loader').fadeOut(500,function(){
+		});
+		
+	})	
 	
 	/*============================================
 	Header
@@ -70,7 +80,7 @@ $(document).ready(function() {
 			$('.navbar-collapse').removeClass('in').addClass('collapse');
 		}
 	});
-		
+    
 	/*============================================
 	Project thumbs - Masonry
 	==============================================*/
