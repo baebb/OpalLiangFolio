@@ -11,12 +11,12 @@ body{
 }
 
 a{
-	color:#F28C83;
+	color:#e15f70;
 	text-decoration:none
 }
 
 a:hover,a:focus{
-	color:#F28C83;
+	color:#e15f70;
 	text-decoration:underline
 }
 
@@ -67,7 +67,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 .bg-color2{
     color:#fff;
-    background:#F28C83;
+    background:#e15f70;
 }
 
 .bg-color3{
@@ -76,11 +76,11 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 }
 
 .border-bottom-color2{
-    border-bottom:7px solid #F28C83;
+    border-bottom:7px solid #e15f70;
 }
 
 .border-top-color2{
-    border-top:7px solid #F28C83;
+    border-top:7px solid #e15f70;
 }
 
 .color1 .service-icon,
@@ -94,11 +94,11 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 .color2 .service-icon,
 .color2.service-item ul li:nth-child(2):before{
-    background:#F28C83;
+    background:#e15f70;
 }
 
 .color2 .service-icon:after{
-    border:3px solid #F28C83;
+    border:3px solid #e15f70;
 }
 
 .color3 .service-icon,
@@ -120,7 +120,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     color:#fff;
     font-size: 21px;
     font-weight: 300;
-    background:#F28C83;
+    background:#e15f70;
     outline: none !important;
     border-radius: 0;
     transition: opacity .2s ease-out;
@@ -271,7 +271,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 #main-nav.scrolled .nav li.active a,
 #main-nav.scrolled .nav a:hover{
-    color: #F28C83;
+    color: #e15f70;
 }
 
 /*-----------------------
@@ -999,7 +999,7 @@ margin: 0 auto;
 
     #main-nav .nav li.active a,
     #main-nav .nav a:hover{
-        color: #F28C83;
+        color: #e15f70;
     }
 
     #main-nav .navbar-brand{
